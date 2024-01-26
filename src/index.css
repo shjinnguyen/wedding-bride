@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "DancingScript";
+  src: url("../public/fonts/DancingScript-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DancingScript-Bold";
+  src: url("../public/fonts/DancingScript-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DancingScript-SemiBold";
+  src: url("../public/fonts/DancingScript-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DancingScript-Medium";
+  src: url("../public/fonts/DancingScript-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("../public/fonts/Times-New-Roman.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Times New Roman", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

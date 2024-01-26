@@ -1,0 +1,55 @@
+.wedding-detail {
+  background-color: #febe98;
+  height: fit-content;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: rgb(82, 42, 40);
+  .title {
+    font-size: 2rem;
+    left: 50%;
+    margin-bottom: 50px;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    transform: translate(-50%, 0);
+    width: 100%;
+  }
+  .time-and-place {
+    left: 70%;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    transform: translate(-50%, 0%);
+    width: 50%;
+  }
+  .envolop {
+    background-image: url("../../../public/images/envolop.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90dvh;
+    margin: auto;
+    max-width: 700px;
+    position: relative;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .wedding-detail {
+    .title {
+      // font-size: 10vw;
+    }
+    .time-and-place {
+      p {
+        font-size: 4vw;
+      }
+      div {
+        padding: 0px;
+      }
+      .time-block {
+        border-right: none;
+      }
+    }
+  }
+}

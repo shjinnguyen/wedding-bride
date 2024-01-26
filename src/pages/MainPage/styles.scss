@@ -1,0 +1,98 @@
+.custom-parallex-wrapper {
+  height: 100dvh;
+  width: 100%;
+  .content-wrapper {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    .button-move-to-top {
+      align-content: center;
+      border-radius: 50%;
+      bottom: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      right: 15px;
+    }
+  }
+  .parallax-image-top-wrapper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    .parallax-image {
+      background-attachment: fixed;
+      background-image: url("../../../public/images/background.jpg");
+      background-position: 0px -200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: brightness(80%);
+      height: 80dvh;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 467px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px 0px;
+      }
+    }
+  }
+  @media screen and (min-width: 467px) and (max-width: 539px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px -30px;
+      }
+    }
+  }
+  @media screen and (min-width: 539px) and (max-width: 553px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px -40px;
+      }
+    }
+  }
+  @media screen and (min-width: 553px) and (max-width: 583px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px -40px;
+      }
+    }
+  }
+  @media screen and (min-width: 583px) and (max-width: 670px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px -70px;
+      }
+    }
+  }
+  @media screen and (min-width: 671px) and (max-width: 760px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px -20px;
+      }
+    }
+  }
+  @media screen and (min-width: 760px) and (max-width: 800px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px -35px;
+      }
+    }
+  }
+  @media screen and (min-width: 800px) and (max-width: 1200px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px -30px;
+      }
+    }
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .parallax-image-top-wrapper {
+      .parallax-image {
+        background-position: 0px -100px;
+      }
+    }
+  }
+}
