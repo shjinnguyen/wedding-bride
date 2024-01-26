@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wedding/static/css/main.a8d00717.css",
+    "main.js": "/wedding/static/js/main.b2af2643.js",
+    "static/js/787.cf61719d.chunk.js": "/wedding/static/js/787.cf61719d.chunk.js",
+    "static/media/background.jpg": "/wedding/static/media/background.8c1c5c447b3a185212e4.jpg",
+    "static/media/envolop.jpg": "/wedding/static/media/envolop.3ddf7706e11e510ebd87.jpg",
+    "static/media/DancingScript-Medium.ttf": "/wedding/static/media/DancingScript-Medium.8a269a5e44015996cd27.ttf",
+    "static/media/DancingScript-SemiBold.ttf": "/wedding/static/media/DancingScript-SemiBold.e8406f3ab340a352f3ce.ttf",
+    "static/media/DancingScript-Bold.ttf": "/wedding/static/media/DancingScript-Bold.57bdbb733ef4ac8e2df3.ttf",
+    "static/media/DancingScript-Regular.ttf": "/wedding/static/media/DancingScript-Regular.5e15416c2d596d51a588.ttf",
+    "static/media/Times-New-Roman.ttf": "/wedding/static/media/Times-New-Roman.f85717dad92d60284052.ttf",
+    "static/media/slick.svg": "/wedding/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/wedding/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/wedding/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/wedding/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/wedding/index.html",
+    "main.a8d00717.css.map": "/wedding/static/css/main.a8d00717.css.map",
+    "main.b2af2643.js.map": "/wedding/static/js/main.b2af2643.js.map",
+    "787.cf61719d.chunk.js.map": "/wedding/static/js/787.cf61719d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8d00717.css",
+    "static/js/main.b2af2643.js"
+  ]
+}
